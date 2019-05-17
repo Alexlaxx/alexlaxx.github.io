@@ -10,6 +10,17 @@ img {
 	padding-top: 77px;
 	padding-bottom: 96px;
 }
+button:hover {
+	transition:0.5s;
+	cursor: pointer;
+	color:white;	
+}
+.button-bg2:hover {
+	background-color: #f15921;
+}
+.button-bg1:hover {
+	background-color: red;
+}
 .header-text__title {
 	font-size: 48px;
 	font-weight: 700;
@@ -69,5 +80,16 @@ img {
 }
 .features-img {
 	min-height: 55px;
+}
+.comments-title {
+font-size: 30px;
+font-weight: bold;
+margin-top: 89px;
+margin-bottom: 72px;
+text-align: center;	
+color: #333333;
+}
+.comments img {
+	padding-bottom: 40px;
 }
 
